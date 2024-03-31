@@ -1,0 +1,4 @@
+@for (product of $products(); track product) {
+  <img [ngSrc]="product.image" [width]="400" [height]="400">
+  <p>{{product.description}}</p>
+}
